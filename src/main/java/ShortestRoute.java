@@ -97,7 +97,7 @@ public class ShortestRoute {
     public static void main(String[] args) {
         ShortestRoute sr = new ShortestRoute();
         sr.readFile("routes.json");
-        List<Path> res = sr.findPath("A", "E");
+        List<Path> res = sr.findPath("A", "H");
         System.out.println(res);
     }
 }
